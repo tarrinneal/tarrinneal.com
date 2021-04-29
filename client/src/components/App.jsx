@@ -1,16 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 
-class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
-
-  render() {
-    return <div>This is Tarrin's Website! Hire him!</div>;
-  }
-}
+const App = () => {
+  const [count, setCount] = useState(0);
+  return (
+    <div id='website'>
+      <div>This is Tarrin's Website! Hire him!</div>
+    </div>
+  );
+};
 
 export default App;
