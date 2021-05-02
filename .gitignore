@@ -107,3 +107,4 @@ dist
 #more
 package-lock.json
 /public/app.js
+*.env
