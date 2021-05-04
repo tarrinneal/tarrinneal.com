@@ -7,7 +7,7 @@ const db = require('../database');
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.send('hello');
+  res.send('');
 });
 
 app.listen(port, () => {
