@@ -11,7 +11,8 @@ export const App = ({ num }: AppProps) => (
       I've decided that I'm going to do a sort of blog, hopefully daily, to
       write up what I am and have been working on. I've been meaning to start
       this for a few weeks, but have had a hard time pulling myself from the
-      actual work of coding to make it happen.
+      actual work of coding to make it happen. Also I'm working full time, so
+      finding time to code is already difficult.
       <br />
       I just went through the process of changing this website to use
       Typescript, and also restructured the React Component's to use hooks as
