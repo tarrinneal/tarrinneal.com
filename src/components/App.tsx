@@ -1,10 +1,11 @@
 import * as React from 'react';
+import { Header } from './Header';
 import { RightSidebar } from './RightSidebar';
 import { LeftSidebar } from './LeftSidebar';
 
 export const App = () => (
   <div id='page'>
-    <h1 id='header'>This is Tarrin Neal's website! Please hire him!</h1>
+    <Header />
     <div id='mainBody'>
       <LeftSidebar />
       <div id='blog'>

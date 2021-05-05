@@ -9,7 +9,7 @@
     "start": "node server/index.js",
     "web-start": "webpack-dev-server --open",
     "build": "webpack",
-    "type-check": "tsc"
+    "tc": "tsc"
   },
   "dependencies": {
     "axios": "^0.21.1",
