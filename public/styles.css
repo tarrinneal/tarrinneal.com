@@ -1,4 +1,21 @@
-body {
-  width: 60%;
-  margin: auto;
+#header {
+  text-align: center;
+}
+
+#mainBody {
+  display: grid;
+  grid-template-columns: 1fr, 2fr, 1fr;
+}
+
+#leftSidebar {
+  grid-column: 1;
+}
+
+#blog {
+  grid-column: 2;
+  margin: 0 10px;
+}
+
+#rightSidebar {
+  grid-column: 3;
 }
