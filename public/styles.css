@@ -19,3 +19,12 @@
 #rightSidebar {
   grid-column: 3;
 }
+
+.portfolioName {
+  color: black;
+}
+
+.portfolioDescription {
+  color: black;
+  text-decoration: none;
+}
