@@ -4,6 +4,9 @@
 
 .icon {
   color: black;
+  margin: 0 5px;
+  height: 20px;
+  width: 20px;
 }
 
 #linkedInIcon:hover {
@@ -11,6 +14,10 @@
   transition-duration: 0.1s;
 }
 
+#githubIcon:hover {
+  color: #24292e;
+  transition-duration: 0.1s;
+}
 #mainBody {
   display: grid;
   grid-template-columns: 1fr, 2fr, 1fr;

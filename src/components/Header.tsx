@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { GrLinkedin } from 'react-icons/gr';
+import { GrLinkedin, GrGithub } from 'react-icons/gr';
 
 export const Header = () => (
   <div id='header'>
@@ -11,6 +11,13 @@ export const Header = () => (
         rel='noopener noreferrer'
       >
         <GrLinkedin id='linkedInIcon' className='icon' />
+      </a>
+      <a
+        href='https://github.com/tarrinneal'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <GrGithub id='githubIcon' className='icon' />
       </a>
     </div>
   </div>
