@@ -9,7 +9,27 @@ export const App = () => (
     <div id='mainBody'>
       <LeftSidebar />
       <div id='blog'>
-        <h2 id='blogHead'>Blog?</h2>
+        <h2 id='blogHead'>Blog</h2>
+        <h3 className='blogDate'>May 5</h3>
+        <p className='blogEntry'>
+          Day 2! Finally had some time to work on this a bit, added the sidebars
+          with links to my portfolio items, the first signs of some css and
+          webpage structure, and icon links to my github and linkedin.
+          <br />
+          <br />
+          I'm still just trying to figure what I want this space to be. I
+          certainly don't think blogging will end up being my big plan for it. I
+          do have a short list of things I plan to add currently:
+          <ul>
+            <li>About Me</li>
+            <li>Style</li>
+            <li>Games</li>
+            <li>Easter Eggs</li>
+          </ul>
+          It does seem like I'm coming up with ideas better as I go rather than
+          trying to find the ideas in advance, so I plan to keep working and
+          thinking through the design as I go.
+        </p>
         <h3 className='blogDate'>May 4</h3>
         <p className='blogEntry'>
           I've decided that I'm going to do a sort of blog, hopefully daily, to
