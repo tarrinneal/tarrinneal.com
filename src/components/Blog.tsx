@@ -3,6 +3,27 @@ import * as React from 'react';
 export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
+    <h3 className='blogDate'>May 6</h3>
+    <p className='blogEntry'>
+      Not as much time today, but I did manage to actually use a hook and run
+      into some issues with typescript! Figuring out both of them at the same
+      time was admittedly a little confusing. Like most bugs though, I realized
+      I was just doing a silly thing wrong - using const instead of type.
+      <br />
+      <br />
+      I'm sure if I'd spent even one day working with just typescript before
+      trying to put it in a project with another piece of tech I'd never used
+      before (hooks), I probably wouldn't have had any problems. There just ends
+      up being so many places the bug could be originating from that it becomes
+      difficult to find the problem when it doesn't match any patterns or issues
+      you've had before.
+      <br />
+      <br />
+      Anyway, Now there is a new tab -In Progress Projects- where I will be
+      showcasing some of my less complete/less fancy projects. Hopefully it is
+      an interesting tab with some worthwhile content, we'll see as things go on
+      I guess!
+    </p>
     <h3 className='blogDate'>May 5</h3>
     <p className='blogEntry'>
       Day 2! Finally had some time to work on this a bit, added the sidebars
