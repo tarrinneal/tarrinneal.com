@@ -48,12 +48,14 @@ export const Blog = () => (
         I'm still just trying to figure what I want this space to be. I
         certainly don't think blogging will end up being my big plan for it. I
         do have a short list of things I plan to add currently:
-        <ul>
-          <li>About Me</li>
-          <li>Style</li>
-          <li>Games</li>
-          <li>Easter Eggs</li>
-        </ul>
+      </p>
+      <ul>
+        <li>About Me</li>
+        <li>Style</li>
+        <li>Games</li>
+        <li>Easter Eggs</li>
+      </ul>
+      <p>
         It does seem like I'm coming up with ideas better as I go rather than
         trying to find the ideas in advance, so I plan to keep working and
         thinking through the design as I go.
