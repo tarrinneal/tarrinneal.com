@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(79, 127, 216);
+}
+
 #header {
   text-align: center;
 }
@@ -34,6 +38,15 @@
 #blog {
   grid-column: 2;
   margin: 0 10px;
+}
+
+.blogEntry {
+  background-color: cornflowerblue;
+  margin: 20px;
+  border-radius: 10px;
+}
+.blogDate {
+  margin: 3px;
 }
 
 #rightSidebar {
