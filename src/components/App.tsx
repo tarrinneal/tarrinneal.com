@@ -3,13 +3,14 @@ import { useState } from 'react';
 import { Header } from './Header';
 import { RightSidebar } from './RightSidebar';
 import { LeftSidebar } from './LeftSidebar';
+import { AboutMe } from './AboutMe';
 import { Blog } from './Blog';
 import { InProgress } from './InProgress';
 
 interface IProps {}
 
 export const App: React.FunctionComponent<IProps> = () => {
-  const [page, setPage] = useState('Blog');
+  const [page, setPage] = useState('About Me');
   const pageSetter = (newPage: string) => {
     setPage(newPage);
   };
@@ -22,7 +23,9 @@ export const App: React.FunctionComponent<IProps> = () => {
             pageSetter(e.target.innerText);
           }}
         />
-        {page === 'Blog' ? (
+        {page === 'About Me' ? (
+          <AboutMe />
+        ) : page === 'Blog' ? (
           <Blog />
         ) : page === 'In Progress Projects' ? (
           <InProgress />
