@@ -4,6 +4,13 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>May 8</h3>
+      <p className='blogEntry'>
+        Even less time today! Made sure to add something even though I really
+        didn't have any time, so now there's an about me section with no info
+        about me! Very exciting. Will update with my "personal narrative"
+        tomorrow, or whenever I figure out my personal narrative...
+      </p>
       <h3 className='blogDate'>May 7</h3>
       <p className='blogEntry'>
         Today I didn't have a ton of time for coding, so I mostly just cleaned
