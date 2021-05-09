@@ -45,8 +45,13 @@ body {
   margin: 20px;
   border-radius: 10px;
 }
+
 .blogDate {
   margin: 3px;
+}
+
+.blogText {
+  margin: 20px;
 }
 
 #rightSidebar {
