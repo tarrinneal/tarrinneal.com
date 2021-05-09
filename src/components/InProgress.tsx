@@ -35,7 +35,7 @@ export const InProgress = () => (
       <h3 className='inProgressTitle'>Lil Buds</h3>
     </a>
     <p className='inProgressDescription'>
-      A pokemone style battler with some of my classmates pets! Custom recorded
+      A pokemon style battler with some of my classmates pets! Custom recorded
       sfx, animations and stats for every move and 'bud'. Built with Jquery and
       Css.
     </p>
