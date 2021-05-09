@@ -35,7 +35,9 @@ body {
   cursor: pointer;
 }
 
-#blog {
+#blog,
+#aboutMe,
+#inProgress {
   grid-column: 2;
   margin: 0 10px;
 }
