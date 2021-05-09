@@ -11,6 +11,8 @@ export const Blog = () => (
         about me! Very exciting. Will update with my "personal narrative"
         tomorrow, or whenever I figure out my personal narrative...
       </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>May 7</h3>
       <p className='blogEntry'>
         Today I didn't have a ton of time for coding, so I mostly just cleaned
