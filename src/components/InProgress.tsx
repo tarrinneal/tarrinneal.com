@@ -15,6 +15,8 @@ export const InProgress = () => (
     <p className='inProgressDescription'>
       A practice repo with all practice problems from the book Cracking the
       Coding Interview, with hints, solutions, and tests for every problem
+      <br />
+      *More chapters to be added weekly!
     </p>
     <a
       href='https://bad-libs.herokuapp.com/'
@@ -26,6 +28,8 @@ export const InProgress = () => (
     <p className='inProgressDescription'>
       A wep app that allows users to create and upload new Ad Lib's as well as
       create stories using others uploaded Ad Libs's!
+      <br />
+      *no styling has been added to this app, more features yet to come!
     </p>
     <a
       href='https://lil-buds.herokuapp.com/'
@@ -38,6 +42,8 @@ export const InProgress = () => (
       A pokemon style battler with some of my classmates pets! Custom recorded
       sfx, animations and stats for every move and 'bud'. Built with Jquery and
       Css.
+      <br />
+      *Built before I took any classes
     </p>
     <a
       href='https://bar-gle-cade.herokuapp.com/'
