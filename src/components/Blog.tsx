@@ -4,6 +4,21 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>May 9</h3>
+      <p className='blogText'>
+        Added some more apps I've made (mostly really old stuff, so not anything
+        too fancy), and fixed some small css issues, but not a ton of work went
+        into the website today. I did a lot of good work in the Cracking the
+        Coding Interview practice repo, added all of the chapter 4 problems,
+        solutions, hints, and jest tests.
+        <br />
+        <br />A decent idea for an app came out of a conversation with my fiance
+        as well, an auto class maker for group x classes. Would give me some
+        solid practice at system design, and also be really helpful for her, and
+        hopefully other exercise instructors too.
+      </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>May 8</h3>
       <p className='blogText'>
         Even less time today! Made sure to add something even though I really
