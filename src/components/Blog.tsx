@@ -3,6 +3,11 @@ import * as React from 'react';
 export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
+    <h3 className='blogDate'>May 10</h3>
+    <p className='blogText'>
+      Decided a day off was well deserved, also need time to think of what to do
+      next.
+    </p>
     <div className='blogEntry'>
       <h3 className='blogDate'>May 9</h3>
       <p className='blogText'>
