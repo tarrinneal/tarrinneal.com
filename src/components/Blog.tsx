@@ -4,6 +4,14 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>May 11</h3>
+      <p className='blogText'>
+        Getting the set up started for react router, hoping to get that all set
+        up on my day off tomorrow, we'll see. Didn't end up having much time to
+        actually code after work today. Gonna have to make up for it tomorrow :)
+      </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>May 10</h3>
       <p className='blogText'>
         Decided a day off was well deserved, also need time to think of what to
