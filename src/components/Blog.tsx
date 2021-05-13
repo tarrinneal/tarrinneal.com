@@ -4,6 +4,15 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>May 12</h3>
+      <p className='blogText'>
+        I decided to stream today, and ended up going longer than expected. I
+        tried to get react router set up today, but I didn't have everything set
+        up correctly, and I'll need to go through the set up process again to
+        make it work correctly.
+      </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>May 11</h3>
       <p className='blogText'>
         Getting the set up started for react router, hoping to get that all set

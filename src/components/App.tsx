@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import { Header } from './Header';
 import { RightSidebar } from './RightSidebar';
 import { LeftSidebar } from './LeftSidebar';
@@ -14,6 +15,10 @@ export const App: React.FunctionComponent<IProps> = () => {
   const pageSetter = (newPage: string) => {
     setPage(newPage);
   };
+  let history = useHistory();
+  debugger;
+  // history.push('/' + page);
+
   return (
     <div id='page'>
       <Header />
