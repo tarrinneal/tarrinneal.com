@@ -4,6 +4,21 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>May 13</h3>
+      <p className='blogText'>
+        Managed to get the React Router working today, turns out the issue I
+        thought was going to take a long time to fix was a rather simple issue
+        of adding the router to a the component above App. Once I added it
+        there, useHistory was no longer returning undefined, which made it so
+        the use history hook was working correctly.
+        <br />
+        <br />
+        There is still a minor issue with refreshing not working properly, the
+        endpoints dont work on initial load. I'm sure that won't take long to
+        fix, but I don't have time tonight, so I will get on it tomorrow!
+      </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>May 12</h3>
       <p className='blogText'>
         I decided to stream today, and ended up going longer than expected. I
