@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { Route, Switch, useHistory } from 'react-router-dom';
 import { Header } from './Header';
 import { RightSidebar } from './RightSidebar';
 import { LeftSidebar } from './LeftSidebar';
@@ -11,30 +11,36 @@ import { InProgress } from './InProgress';
 interface IProps {}
 
 export const App: React.FunctionComponent<IProps> = () => {
-  const [page, setPage] = useState('About Me');
+  const [page, setPage] = useState('AboutMe');
   const pageSetter = (newPage: string) => {
     setPage(newPage);
   };
   let history = useHistory();
-  debugger;
-  // history.push('/' + page);
+  history.push('/' + page);
 
   return (
     <div id='page'>
       <Header />
       <div id='mainBody'>
-        <LeftSidebar
-          setPage={(e: any) => {
-            pageSetter(e.target.innerText);
-          }}
-        />
-        {page === 'About Me' ? (
+        <LeftSidebar setPage={pageSetter} />
+        <Switch>
+          <Route path='/AboutMe'>
+            <AboutMe />
+          </Route>
+          <Route path='/InProgressProjects'>
+            <InProgress />
+          </Route>
+          <Route path='/Blog'>
+            <Blog />
+          </Route>
+        </Switch>
+        {/* {page === 'About Me' ? (
           <AboutMe />
         ) : page === 'Blog' ? (
           <Blog />
         ) : page === 'In Progress Projects' ? (
           <InProgress />
-        ) : null}
+        ) : null} */}
         <RightSidebar />
       </div>
       <p id='builtWith'>Built with React hooks and Typescript</p>
