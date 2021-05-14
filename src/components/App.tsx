@@ -34,13 +34,6 @@ export const App: React.FunctionComponent<IProps> = () => {
             <Blog />
           </Route>
         </Switch>
-        {/* {page === 'About Me' ? (
-          <AboutMe />
-        ) : page === 'Blog' ? (
-          <Blog />
-        ) : page === 'In Progress Projects' ? (
-          <InProgress />
-        ) : null} */}
         <RightSidebar />
       </div>
       <p id='builtWith'>Built with React hooks and Typescript</p>
