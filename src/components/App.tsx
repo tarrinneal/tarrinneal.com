@@ -11,12 +11,12 @@ import { InProgress } from './InProgress';
 interface IProps {}
 
 export const App: React.FunctionComponent<IProps> = () => {
-  const [page, setPage] = useState('AboutMe');
+  const [page, setPage] = useState(window.location.pathname);
   const pageSetter = (newPage: string) => {
     setPage(newPage);
   };
   let history = useHistory();
-  history.push('/' + page);
+  history.push(page);
 
   return (
     <div id='page'>

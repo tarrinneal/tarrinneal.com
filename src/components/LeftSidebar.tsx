@@ -12,7 +12,7 @@ export const LeftSidebar: React.FunctionComponent<LeftSidebarProps> = ({
     <h3
       className='featureNavigator'
       onClick={() => {
-        setPage('AboutMe');
+        setPage('/AboutMe');
       }}
     >
       About Me
@@ -21,7 +21,7 @@ export const LeftSidebar: React.FunctionComponent<LeftSidebarProps> = ({
     <h3
       className='featureNavigator'
       onClick={() => {
-        setPage('Blog');
+        setPage('/Blog');
       }}
     >
       Blog
@@ -30,7 +30,7 @@ export const LeftSidebar: React.FunctionComponent<LeftSidebarProps> = ({
     <h3
       className='featureNavigator'
       onClick={() => {
-        setPage('InProgressProjects');
+        setPage('/InProgressProjects');
       }}
     >
       In Progress Projects
