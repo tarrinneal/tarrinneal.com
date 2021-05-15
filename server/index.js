@@ -7,6 +7,7 @@ const db = require('../database');
 // app.use(express.static('public'));
 
 app.get('/', (req, res) => {
+  debugger;
   res.sendFile('index.html', { root: __dirname + '/../public/' }, (err) => {
     if (err) {
       console.log(err);

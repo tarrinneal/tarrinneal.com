@@ -4,6 +4,22 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>May 14</h3>
+      <p className='blogText'>
+        That didn't end up being too difficult either, added endpoints on the
+        server back end to respond with the correct files for the style sheet
+        and the bundle, then routed all other endpoints to return the index.html
+        file to avoid the server failing to return anything when attempting to
+        go directly to the website with an enpoint (like Blog or AboutMe). This
+        fixed the problem with one error, but I still always ended up going to
+        the same default page. The solution for that was rather simple too, I
+        figured it would be a built in method for react router (and it probably
+        is), but I ended up just pulling the endpoint from the window directly
+        and pushing that to the history object. Now I just need a splash page
+        for endpoints that dont exist to avoid sending back a blank page.
+      </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>May 13</h3>
       <p className='blogText'>
         Managed to get the React Router working today, turns out the issue I
