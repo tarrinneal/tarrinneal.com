@@ -4,6 +4,26 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>May 16</h3>
+      <p className='blogText'>
+        What a day...
+        <br />
+        <br />
+        Thought I'd "finish up" this website for a bit by adding ssl. I've done
+        that before and didn't think it would take much. Turns out, my router
+        has some problems with forwarding port 443. I won't go in to the
+        details, since it isn't REALLY related to software engineering, but I
+        did get it working after a few hours and a hard reset of the router. So
+        now you can read this blog in a secure manner!
+        <br />
+        <br />
+        After that I added all of chapter 5 to the Cracking the Coding Interview
+        paractice repo so that it would be available for everyone to use in the
+        book club this week! Tomorrow (if I have time), I may get some work in
+        on the Triple Triad game, to add multiplayer via socket.io!
+      </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>May 15</h3>
       <p className='blogText'>
         Touched up yesterdays work a bit, didn't have time for much beyond that.
