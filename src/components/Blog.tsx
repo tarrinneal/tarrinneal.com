@@ -21,6 +21,22 @@ export const Blog = () => (
         paractice repo so that it would be available for everyone to use in the
         book club this week! Tomorrow (if I have time), I may get some work in
         on the Triple Triad game, to add multiplayer via socket.io!
+        <br />
+        <br />
+        Part 2,
+        <br />
+        <br />
+        I realized there was an issue with my implementation of React Router, I
+        was adding to the history every time the app was rerendered. This
+        resulted in the history getting 2 or 3 additions per load instead of
+        just the 1 it needed.
+        <br />
+        <br />I had used a bit of a hacky solution to implement it originally,
+        since I was trying to add it to the pre-existing page system I had
+        created. I just needed to remove all the extra hooks from the process
+        and just use the history.push method in the onClick method that was
+        being used in the left sidebar to change pages. Everything is working
+        correctly now!
       </p>
     </div>
     <div className='blogEntry'>
