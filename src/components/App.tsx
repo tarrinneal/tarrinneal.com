@@ -24,14 +24,14 @@ export const App: React.FunctionComponent<IProps> = () => {
       <div id='mainBody'>
         <LeftSidebar setPage={pageSetter} />
         <Switch>
-          <Route path='/AboutMe'>
-            <AboutMe />
-          </Route>
           <Route path='/InProgressProjects'>
             <InProgress />
           </Route>
           <Route path='/Blog'>
             <Blog />
+          </Route>
+          <Route path='/'>
+            <AboutMe />
           </Route>
         </Switch>
         <RightSidebar />

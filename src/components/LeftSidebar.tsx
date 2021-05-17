@@ -12,7 +12,7 @@ export const LeftSidebar: React.FunctionComponent<LeftSidebarProps> = ({
     <h3
       className='featureNavigator'
       onClick={() => {
-        setPage('/AboutMe');
+        setPage('/');
       }}
     >
       About Me
