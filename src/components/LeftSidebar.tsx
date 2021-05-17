@@ -1,18 +1,18 @@
 import * as React from 'react';
 
 type LeftSidebarProps = {
-  setPage: any;
+  navigate: any;
 };
 
 export const LeftSidebar: React.FunctionComponent<LeftSidebarProps> = ({
-  setPage,
+  navigate,
 }) => (
   <div id='leftSidebar'>
     <h2 id='featureNavigation'>Features</h2>
     <h3
       className='featureNavigator'
       onClick={() => {
-        setPage('/');
+        navigate('/');
       }}
     >
       About Me
@@ -21,7 +21,7 @@ export const LeftSidebar: React.FunctionComponent<LeftSidebarProps> = ({
     <h3
       className='featureNavigator'
       onClick={() => {
-        setPage('/Blog');
+        navigate('/Blog');
       }}
     >
       Blog
@@ -30,7 +30,7 @@ export const LeftSidebar: React.FunctionComponent<LeftSidebarProps> = ({
     <h3
       className='featureNavigator'
       onClick={() => {
-        setPage('/InProgressProjects');
+        navigate('/InProgressProjects');
       }}
     >
       In Progress Projects

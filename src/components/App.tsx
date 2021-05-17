@@ -11,18 +11,13 @@ import { InProgress } from './InProgress';
 interface IProps {}
 
 export const App: React.FunctionComponent<IProps> = () => {
-  const [page, setPage] = useState(window.location.pathname);
-  const pageSetter = (newPage: string) => {
-    setPage(newPage);
-  };
   let history = useHistory();
-  history.push(page);
 
   return (
     <div id='page'>
       <Header />
       <div id='mainBody'>
-        <LeftSidebar setPage={pageSetter} />
+        <LeftSidebar navigate={history.push} />
         <Switch>
           <Route path='/InProgressProjects'>
             <InProgress />
