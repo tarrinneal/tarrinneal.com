@@ -9,7 +9,6 @@ export const Blog = () => (
         Touched up yesterdays work a bit, didn't have time for much beyond that.
       </p>
     </div>
-    +
     <div className='blogEntry'>
       <h3 className='blogDate'>May 14</h3>
       <p className='blogText'>
