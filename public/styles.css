@@ -68,3 +68,7 @@ body {
   color: black;
   text-decoration: none;
 }
+
+.recurse:hover {
+  cursor: pointer;
+}
