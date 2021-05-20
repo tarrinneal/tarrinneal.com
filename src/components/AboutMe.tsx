@@ -15,6 +15,14 @@ export const AboutMe = () => (
       more than I could have hoped for, to the point were I was spending large
       amounts of my time helping the other students with their assignments
       throughout the program.
+      <br />
+      <br />I spend most of my free time these days just trying to build as much
+      as I can. I really do love the work. I love the problem solving, the
+      logical thinking, and even the debugging process. It's like solving a
+      great puzzle or beating a level in a good game. I've always enjoyed
+      working with tech, and assumed I would work in the tech world in some
+      capacity, but software engineering really is my passion now. I hope I can
+      find the right job and continue to learn and grow for years to come.
     </p>
   </div>
 );
