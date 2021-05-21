@@ -4,6 +4,30 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>May 20</h3>
+      <p className='blogText'>
+        Oops, I missed a couple days of blogging, I did make a few minor changes
+        to the website, but never had much time to write about it. I added my
+        first easter egg too ;)
+        <br />
+        <br />
+        Today though, I started a new project.
+        <br />
+        <br />
+        "Omg a new project, don't you already have like 10 unfinished projects?"
+        <br />
+        <br />
+        Yes, yes I do. But I wanted to make something that was more in line with
+        the work I'm trying to do after Hack Reactor. Since my #1 workplace of
+        choice right now would be Discord. I'm basically working to build a
+        clone of discord that has threads and maybe proximity chat, if I can get
+        that far. Already set up sockets, the full front end wireframe, and the
+        basic server set up as well. Really looking forward to the deep dive
+        into the system design of this project, the scope is probably overly
+        large though. Oh well :)
+      </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>May 16</h3>
       <p className='blogText'>
         What a day...
