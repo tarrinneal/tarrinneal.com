@@ -4,6 +4,28 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>May 23</h3>
+      <p className='blogText'>
+        Well, we've completely restarted the Harmony project. Decided to
+        restructure the project to use Flutter and DGraph instead of React,
+        Express, and Postgress. It's been very interesting to learn the in's and
+        out's of Flutter, but very slow going so far. I wanted this project to
+        be a quick build, since the scope is already so large, but now I'm being
+        greatly slowed down by having to learn a new codebase and framework.
+        <br />
+        <br />
+        I've been planning to learn Flutter anyway though, so this is really a
+        good learning experience. Especially since I have a google engineer
+        helping me learn the framework. Hopefully this project will be a strong
+        resume and talking point to help me get into Google.
+        <br />
+        <br />
+        Not too much work done with it yet, just a lot of investigation to work
+        through the new content and also a bit about how my friend handles their
+        separation of concerns and their workflow/process.
+      </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>May 20</h3>
       <p className='blogText'>
         Oops, I missed a couple days of blogging, I did make a few minor changes
