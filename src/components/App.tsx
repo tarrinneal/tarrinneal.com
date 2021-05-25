@@ -11,13 +11,11 @@ import { InProgress } from './InProgress';
 interface IProps {}
 
 export const App: React.FunctionComponent<IProps> = () => {
-  let history = useHistory();
-
   return (
     <div id='page'>
       <Header />
       <div id='mainBody'>
-        <LeftSidebar navigate={history.push} />
+        <LeftSidebar />
         <Switch>
           <Route path='/InProgressProjects'>
             <InProgress />
