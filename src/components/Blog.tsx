@@ -4,6 +4,20 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>May 25</h3>
+      <p className='blogText'>
+        Not going to lie, getting started working with Flutter has been pretty
+        difficult. Conceptually, it all makes sense, but not knowing any of the
+        native methods makes knowing the right way to build something very
+        difficult. I am enjoying working with D2, but I feel like I have to rely
+        on him too much right now to get anything done. I have managed to add a
+        component without any assistance, and I added some state management
+        processes with his help too. Going to spend the next day or two really
+        trying to push to add more while he's away so I can't use him as a
+        reference.
+      </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>May 23</h3>
       <p className='blogText'>
         Well, we've completely restarted the Harmony project. Decided to
