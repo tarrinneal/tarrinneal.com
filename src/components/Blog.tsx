@@ -4,6 +4,28 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>June 1</h3>
+      <p className='blogText'>
+        I guess this isn't a daily blog anymore, I just find it difficult to
+        find the time to write things here. I'm starting another project now,
+        while still spending most of my time working on harmony. I do feel like
+        I'm starting to get a hang of the flutter stuff, it's a strange
+        framework compared to what I'm used to.
+        <br />
+        <br />
+        Now I'm starting a new project calls listf.in, it's like trello, except
+        with nested boards. I'll go into detail a bit more in another post, it's
+        just getting started. I've got a group of 9 or so people working with
+        me, so I should be able to get some good experience with project
+        management as well.
+        <br />
+        <br />
+        Listf.in will also be a good chance to learn more about typescript,
+        react hooks, graph databases and graphQL, and some other technologies
+        that I don't have a ton of experience with. I'm looking forward to it!
+      </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>May 25</h3>
       <p className='blogText'>
         Not going to lie, getting started working with Flutter has been pretty
@@ -78,7 +100,7 @@ export const Blog = () => (
         <br />
         <br />
         After that I added all of chapter 5 to the Cracking the Coding Interview
-        paractice repo so that it would be available for everyone to use in the
+        practice repo so that it would be available for everyone to use in the
         book club this week! Tomorrow (if I have time), I may get some work in
         on the Triple Triad game, to add multiplayer via socket.io!
         <br />
@@ -102,7 +124,8 @@ export const Blog = () => (
     <div className='blogEntry'>
       <h3 className='blogDate'>May 15</h3>
       <p className='blogText'>
-        Touched up yesterdays work a bit, didn't have time for much beyond that.
+        Touched up yesterday’s work a bit, didn't have time for much beyond
+        that.
       </p>
     </div>
     <div className='blogEntry'>
@@ -118,7 +141,7 @@ export const Blog = () => (
         figured it would be a built in method for react router (and it probably
         is), but I ended up just pulling the endpoint from the window directly
         and pushing that to the history object. Now I just need a splash page
-        for endpoints that dont exist to avoid sending back a blank page.
+        for endpoints that don’t exist to avoid sending back a blank page.
       </p>
     </div>
     <div className='blogEntry'>
@@ -126,9 +149,9 @@ export const Blog = () => (
       <p className='blogText'>
         Managed to get the React Router working today, turns out the issue I
         thought was going to take a long time to fix was a rather simple issue
-        of adding the router to a the component above App. Once I added it
-        there, useHistory was no longer returning undefined, which made it so
-        the use history hook was working correctly.
+        of adding the router to the component above App. Once I added it there,
+        useHistory was no longer returning undefined, which made it so the use
+        history hook was working correctly.
         <br />
         <br />
         There is still a minor issue with refreshing not working properly, the
@@ -226,7 +249,7 @@ export const Blog = () => (
         webpage structure, and icon links to my github and linkedin.
         <br />
         <br />
-        I'm still just trying to figure what I want this space to be. I
+        I'm still just trying to figure out what I want this space to be. I
         certainly don't think blogging will end up being my big plan for it. I
         do have a short list of things I plan to add currently:
       </p>
