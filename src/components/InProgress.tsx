@@ -4,6 +4,22 @@ export const InProgress = () => (
   <div id='inProgress'>
     <h2 className='inProgressHeader'>Projects I'm Actively Building</h2>
     <a
+      href='https://github.com/tarrinneal/harmony'
+      target='_blank'
+      rel='noopener noreferrer'
+    >
+      <h3 className='inProgressTitle'>Harmony</h3>
+    </a>
+    <p className='inProgressDescription'>{/**/}</p>
+    <a
+      href='https://github.com/listf-in/listf.in'
+      target='_blank'
+      rel='noopener noreferrer'
+    >
+      <h3 className='inProgressTitle'>Listf.in</h3>
+    </a>
+    <p className='inProgressDescription'>{/**/}</p>
+    <a
       href='https://github.com/tarrinneal/CtCI_Book_Club'
       target='_blank'
       rel='noopener noreferrer'
