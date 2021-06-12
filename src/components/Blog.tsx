@@ -4,6 +4,24 @@ export const Blog = () => (
   <div id='blog'>
     <h2 id='blogHead'>Blog</h2>
     <div className='blogEntry'>
+      <h3 className='blogDate'>June 12</h3>
+      <p className='blogText'>
+        Work has been very time consuming this week, so I haven't written much,
+        but I expect that trend to continue. I want to focus on coding and
+        blogging isn't a priority in it's current form. I've made significant
+        progress on Harmony's database set up this week, and just need to
+        integrate it into the front end at this point. Dgraph is an excellent
+        tool and I intend to use it for a lot of projects going forward.
+        <br />
+        <br />
+        Listf.in progress is slow, but that is understandable given how busy
+        everyone working on the project is. I wish I could have a full time team
+        dedicated to making these projects great, as I think they both could be
+        really awesome when they're complete. I'll continue to plug away at them
+        for now.
+      </p>
+    </div>
+    <div className='blogEntry'>
       <h3 className='blogDate'>June 1</h3>
       <p className='blogText'>
         I guess this isn't a daily blog anymore, I just find it difficult to
