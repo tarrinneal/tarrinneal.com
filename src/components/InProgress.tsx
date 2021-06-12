@@ -10,7 +10,9 @@ export const InProgress = () => (
     >
       <h3 className='inProgressTitle'>Harmony</h3>
     </a>
-    <p className='inProgressDescription'>{/**/}</p>
+    <p className='inProgressDescription'>
+      An open source server based chat app built with Flutter and Dgraph
+    </p>
     <a
       href='https://github.com/listf-in/listf.in'
       target='_blank'
@@ -18,7 +20,10 @@ export const InProgress = () => (
     >
       <h3 className='inProgressTitle'>Listf.in</h3>
     </a>
-    <p className='inProgressDescription'>{/**/}</p>
+    <p className='inProgressDescription'>
+      A nested list based organizational application designed to create a
+      seamless workflow
+    </p>
     <a
       href='https://github.com/tarrinneal/CtCI_Book_Club'
       target='_blank'
